@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<menu-config xmlns="http://jmix.io/schema/flowui/menu">
+
+    <menu id="adminstration" title="Adminstration">
+        <item view="ai4e_User.list" title="msg://tools.dataintegration.ai4enterprise.view.user/UserListView.title"/>
+        <menu id="email" title="msg://tools.dataintegration.ai4enterprise/menu.email.title">
+            <item view="email_sendingMessageView"
+                  title="msg://io.jmix.emailflowui.view.sendingmessage/sendingMessageView.menu"/>
+        </menu>
+        <menu id="quartz" title="msg://tools.dataintegration.ai4enterprise/menu.quartz.title">
+            <item view="quartz_JobModel.list" title="msg://io.jmix.quartzflowui.view.jobs/jobModelListView.menu"/>
+        </menu>
+        <menu id="datatools" title="msg://tools.dataintegration.ai4enterprise/menu.datatools.title">
+            <item view="datatl_entityInspectorListView"
+                  title="msg://io.jmix.datatoolsflowui.view.entityinspector/listTitle"/>
+        </menu>
+        <menu id="jmxconsole" title="msg://tools.dataintegration.ai4enterprise/menu.jmxconsole.title">
+            <item view="jmxcon_JmxConsoleView" title="msg://io.jmix.jmxconsole/jmxConsoleView.menu"/>
+        </menu>
+        <menu id="security" title="msg://tools.dataintegration.ai4enterprise/menu.security.title">
+            <item view="sec_ResourceRoleModel.list"
+                  title="msg://io.jmix.securityflowui.view.resourcerole/resourceRoleModelListView.menu"/>
+            <item view="sec_RowLevelRoleModel.list"
+                  title="msg://io.jmix.securityflowui.view.rowlevelrole/rowLevelRoleModelListView.menu"/>
+        </menu>
+        <item view="ai4e_Chat" title="msg://tools.dataintegration.ai4enterprise.view.chatitem/chat.title"/>
+    </menu>
+</menu-config>
